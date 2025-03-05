@@ -84,7 +84,7 @@
   "release": {
     "repositoryUrl": "https://github.com/CraftFossLabs/react-beautiful-dragify.git",
     "branches": [
-      "master",
+      "main",
       "next",
       {
         "name": "beta",
