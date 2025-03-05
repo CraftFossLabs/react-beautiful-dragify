@@ -3,7 +3,6 @@
 Thank you for your interest in contributing to react-beautiful-dragify! We welcome all types of contributions, including bug reports, feature suggestions, documentation improvements, and code contributions.
 
 ## Quick Start
-
 ### Prerequisites
 
 - Node.js (version 20 LTS)
