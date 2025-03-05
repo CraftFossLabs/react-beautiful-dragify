@@ -10,14 +10,14 @@
     "build": "rollup -c",
     "test": "jest",
     "lint": "eslint src/**/*.{ts,tsx}",
-    "prepare": "npm run build"
+   "prepare": "husky"
   },
   "files": [
     "dist"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/CraftFossLabs/dragifyJS.git"
+    "url": "https://github.com/CraftFossLabs/react-beautiful-dragify.git"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
@@ -82,7 +82,7 @@
     "node": ">=12.0.0"
   },
   "release": {
-    "repositoryUrl": "https://github.com/mindfiredigital/eslint-plugin-hub.git",
+    "repositoryUrl": "https://github.com/CraftFossLabs/react-beautiful-dragify.git",
     "branches": [
       "master",
       "next",
