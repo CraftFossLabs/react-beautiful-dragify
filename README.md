@@ -33,16 +33,9 @@ A powerful, flexible, and accessible drag and drop library for React application
 
 ## Live Demo
 
-Try out react-beautiful-dragify in your browser:
+Try out react-beautiful-dragify in our interactive demo:
 
-[![Edit react-beautiful-dragify-demo](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/vitejs-vite-xqhygfpz?ctl=1&embed=1&file=package.json&theme=light)
-
-<iframe src="https://stackblitz.com/edit/vitejs-vite-xqhygfpz?embed=1&file=src%2FApp.tsx&theme=light" 
-        style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-        title="react-beautiful-dragify-demo"
-        allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-        sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-></iframe>
+[![Edit react-beautiful-dragify-demo](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/vitejs-vite-xqhygfpz?embed=1&file=src%2FApp.tsx&theme=light)
 
 ## Installation
 
