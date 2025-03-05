@@ -10,7 +10,7 @@
     "build": "rollup -c",
     "test": "jest",
     "lint": "eslint src/**/*.{ts,tsx}",
-   "prepare": "husky"
+    "prepare": "husky"
   },
   "files": [
     "dist"
