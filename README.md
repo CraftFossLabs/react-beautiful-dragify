@@ -31,30 +31,15 @@ A powerful, flexible, and accessible drag and drop library for React application
 ## Installation
 
 ```bash
-npm install react-dragify
+npm install react-beautiful-dragify
 # or
-yarn add react-dragify
-```
-
-## Project Structure
-
-```
-src/
-├── providers/
-│   └── DragifyProvider.tsx    # Context provider for drag and drop state
-├── services/
-│   ├── useDraggable.tsx      # Hook for draggable elements
-│   └── useDroppable.tsx      # Hook for droppable containers
-├── types/
-│   └── types.ts              # TypeScript type definitions
-└── utils/
-    └── utils.ts              # Utility functions
+yarn add react-beautiful-dragify
 ```
 
 ## Basic Usage
 
 ```tsx
-import { DragifyProvider, useDraggable, useDroppable } from 'react-dragify';
+import { DragifyProvider, useDraggable, useDroppable } from 'react-beautiful-dragify';
 
 // 1. Wrap your app with DragifyProvider
 function App() {
@@ -167,4 +152,4 @@ function DroppableList({ id }) {
 
 ## License
 
-BSD-3-Clause
+MIT
