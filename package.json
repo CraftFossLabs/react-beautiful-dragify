@@ -1,0 +1,90 @@
+{
+  "name": "react-beautiful-dragify",
+  "version":  "1.0.0-development",
+  "description": "React drag and drop library",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest",
+    "lint": "eslint src/**/*.{ts,tsx}",
+    "prepare": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CraftFossLabs/dragifyJS.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "@commitlint/cli": "^19.4.1",
+    "@commitlint/config-conventional": "^19.4.1",
+    "eslint": "^8.0.0",
+    "eslint-plugin-react": "^7.0.0",
+    "eslint-plugin-react-hooks": "^4.0.0",
+    "jest": "^29.0.0",
+    "rollup": "^2.0.0",
+    "rollup-plugin-typescript2": "^0.31.0",
+    "typescript": "^4.0.0",
+    "globals": "^15.9.0",
+    "husky": "^9.1.5",
+    "jest-environment-jsdom": "29.7.0",
+    "jsdom": "24.1.1",
+    "lint-staged": "^15.2.9",
+    "npm-run-all": "4.1.5",
+    "postcss": "8",
+    "prettier": "^3.3.3",
+    "pretty": "2.0.0",
+    "sass": "1.80.3",
+    "semantic-release": "^24.1.1"
+  },
+  "keywords": [
+    "react",
+    "drag-and-drop",
+    "dragify",
+    "dnd"
+  ],
+  "author": "Anand Kumar",
+  "license": "MIT",
+  "lint-staged": {
+    "**/*.{js,ts}": [
+      "prettier --write",
+      "eslint ."
+    ],
+    "**/*.json": [
+      "prettier --write"
+    ],
+    "**/*.md": [
+      "prettier --write"
+    ]
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "release": {
+    "repositoryUrl": "https://github.com/mindfiredigital/eslint-plugin-hub.git",
+    "branches": [
+      "master",
+      "next",
+      {
+        "name": "beta",
+        "prerelease": true
+      }
+    ]
+  }
+}
