@@ -1,6 +1,6 @@
 # react-beautiful-dragify
 
-A powerful, flexible, and accessible drag and drop library for React applications, inspired by react-beautiful-dnd.
+A powerful, flexible, and accessible drag and drop library for React applications, alterntive of react-beautiful-dnd.
 
 ## Features
 
